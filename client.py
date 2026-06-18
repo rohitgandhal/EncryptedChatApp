@@ -4,7 +4,7 @@ from datetime import datetime
 from crypto_utils import derive_key, encrypt_message, decrypt_message
 
 
-HOST = '127.0.0.1'
+HOST = '' #enter host id
 PORT = 9999
 PASSWORD = 'SuperSecret123'
 SALT = b'12345678abcdefgh'
